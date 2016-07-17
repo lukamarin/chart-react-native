@@ -116,9 +116,3 @@ class SimpleChart extends Component {
 - [ ] Multi-line chart
 - [ ] Horizontal line chart
 - [ ] Scatter chart
-
-## Info/Support
-
-Work prior to repo transfer on Feb 1, 2015 was the work of Hyun Cho @ OneFold.
-
-Email tom.auty@gmail.com for support.
