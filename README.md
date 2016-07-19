@@ -7,7 +7,7 @@ react-native-chart is a simple module for adding line charts, area charts, or ba
 
 **NOTE!** The current major version (1.X.Y) is still being developed. If you are looking for the most recent iOS-only version, please download `^0.1.4`.
 
-![Screenshot](https://raw.githubusercontent.com/tomauty/react-native-chart/master/screenshots/README.png)
+![Screenshot](https://raw.githubusercontent.com/lukamarin/chart-react-native/master/screenshots/README.png)
 
 ## Getting Started
 [![NPM](https://nodei.co/npm/react-native-chart.png?downloads=true)](https://nodei.co/npm/react-native-chart/)
@@ -42,38 +42,38 @@ import React, { StyleSheet, View, Component } from 'react-native';
 import Chart from 'react-native-chart';
 
 const styles = StyleSheet.create({
-	container: {
-		flex: 1,
-		justifyContent: 'center',
-		alignItems: 'center',
-		backgroundColor: 'white',
-	},
-	chart: {
-		width: 200,
-		height: 200,
-	},
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: 'white',
+    },
+    chart: {
+        width: 200,
+        height: 200,
+    },
 });
 
 const data = [
-	[0, 1],
-	[1, 3],
-	[3, 7],
-	[4, 9],
+    [0, 1],
+    [1, 3],
+    [3, 7],
+    [4, 9],
 ];
 
 class SimpleChart extends Component {
-	render() {
-		return (
-			<View style={styles.container}>
-				<Chart
-					style={styles.chart}
-					data={data}
-					verticalGridStep={5}
-					type="line"
-				 />
-			</View>
-		);
-	}
+    render() {
+        return (
+            <View style={styles.container}>
+                <Chart
+                    style={styles.chart}
+                    data={data}
+                    verticalGridStep={5}
+                    type="line"
+                 />
+            </View>
+        );
+    }
 }
 
 ```
